@@ -13,10 +13,20 @@ public class Car {
     //this -> reference to whoever is using it.
     //class that is using the "this" keyword.
 
-    public Car(double mileages,int prices,int doorss){
-         this.mileage = mileages;  // set class's field mileage to equal to mileage from the method.
-         this.price = prices;
-         this.doors = doorss;
+    public Car(){
+        this(5.23,50000,5);
+    }
+
+    public Car(int doors){
+        this.doors=doors;
+    }
+
+
+
+    public Car(double mileage,int price,int doors){
+         this.mileage = mileage;  // set class's field mileage to equal to mileage from the method.
+         this.price = price;
+         this.doors = doors;
     }
 
 
