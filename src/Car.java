@@ -8,6 +8,21 @@ public class Car {
     int price;
     int doors;
 
+    //constructors - special method - create objects - implicitly called.
+
+    //this -> reference to whoever is using it.
+    //class that is using the "this" keyword.
+
+    public Car(double mileages,int prices,int doorss){
+         this.mileage = mileages;  // set class's field mileage to equal to mileage from the method.
+         this.price = prices;
+         this.doors = doorss;
+    }
+
+
+
+
+
     //functions
     //start  shutoff
 
@@ -18,5 +33,8 @@ public class Car {
     public void carShutOff(){
         System.out.println("Car Engine off");
     }
+
+
+
 
 }
