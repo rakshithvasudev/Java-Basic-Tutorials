@@ -4,34 +4,10 @@
 public class Car {
     //mileage, price, doors count
 
-    double mileage;
-    int price;
-    int doors;
-
-    //constructors - special method - create objects - implicitly called.
-
-    //this -> reference to whoever is using it.
-    //class that is using the "this" keyword.
-
-    public Car(){
-        this(5.23,50000,5);
-    }
-
-    public Car(int doors){
-        this.doors=doors;
-    }
-
-
-
-    public Car(double mileage,int price,int doors){
-         this.mileage = mileage;  // set class's field mileage to equal to mileage from the method.
-         this.price = price;
-         this.doors = doors;
-    }
-
-
-
-
+   //fields are set private - > encapsulation
+   private double mileage;
+   private int price;
+   private int doors;
 
     //functions
     //start  shutoff
@@ -45,6 +21,31 @@ public class Car {
     }
 
 
+    //Getters and setters
+    //getters -> return type -> return something.
+    //setters -> void -> doesn't return anything.
 
+    public double getMileage() {
+        return mileage;
+    }
 
+    public void setMileage(double mileage) {
+        this.mileage = mileage;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
 }
