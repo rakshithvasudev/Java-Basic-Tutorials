@@ -4,6 +4,8 @@
 public class Car {
     //mileage, price, doors count
 
+
+
    //fields are set private - > encapsulation
    private double mileage;
    private int price;
@@ -12,8 +14,8 @@ public class Car {
     //functions
     //start  shutoff
 
-    public void carStart(){
-        System.out.println("Car Started");
+    public String carStart(){
+       return "Car Started";
     }
 
     public void carShutOff(){
