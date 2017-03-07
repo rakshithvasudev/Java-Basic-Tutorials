@@ -4,12 +4,12 @@ public class Main {
 
        // Car benz = new Car();
 
-        DirtCar dirtyBenz = new DirtCar();
-
-        dirtyBenz.setMileage(6);
-        dirtyBenz.setDoors(2);
-        dirtyBenz.setPrice(250000);
-        dirtyBenz.setDirtyTerrainTopSpeed(45);
+        DirtCar dirtyBenz = new DirtCar(20.5,50000,6,50);
+//
+//        dirtyBenz.setMileage(6);
+//        dirtyBenz.setDoors(2);
+//        dirtyBenz.setPrice(250000);
+//        dirtyBenz.setDirtyTerrainTopSpeed(45);
 
         System.out.println("Dirty Benz's mileage is:" + dirtyBenz.getMileage());
         System.out.println("Dirty Benz's Door count:" + dirtyBenz.getDoors());

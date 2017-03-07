@@ -3,13 +3,20 @@
  */
 public class Car {
     //mileage, price, doors count
-
-
-
    //fields are set private - > encapsulation
    private double mileage;
    private int price;
    private int doors;
+
+
+
+   public Car(double mileage, int price, int doors){
+       this.mileage=mileage;
+       this.price=price;
+       this.doors=doors;
+   }
+
+
 
     //functions
     //start  shutoff
