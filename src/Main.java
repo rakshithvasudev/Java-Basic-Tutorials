@@ -1,35 +1,19 @@
+/**
+ * Created by Rakshith on 3/31/2017.
+ */
 public class Main {
-
     public static void main(String[] args) {
 
-       // Car benz = new Car();
+        Cat rasie = new Cat();
+        Dog markie = new Dog();
+        Lion simba = new Lion();
 
-        DirtCar dirtyBenz = new DirtCar(20.5,50000,6,50);
-//
-//        dirtyBenz.setMileage(6);
-//        dirtyBenz.setDoors(2);
-//        dirtyBenz.setPrice(250000);
-//        dirtyBenz.setDirtyTerrainTopSpeed(45);
-
-        System.out.println("Dirty Benz's mileage is:" + dirtyBenz.getMileage());
-        System.out.println("Dirty Benz's Door count:" + dirtyBenz.getDoors());
-        System.out.println("Dirty Benz's price is:" + dirtyBenz.getPrice());
-        System.out.println("Dirty Benz's Terrain Top Speed is:" + dirtyBenz.getDirtyTerrainTopSpeed());
+        rasie.makeSound();
+        markie.makeSound();
+        simba.makeSound();
 
 
-        System.out.println(dirtyBenz.startDirtCar());
-
-
-//        benz.setMileage(20.25);
-//        benz.setDoors(5);
-//        benz.setPrice(50000);
-//
-//        System.out.println("Benz has "+ benz.getDoors()+ "doors");
-//        System.out.println("Benz is priced at "+ benz.getPrice()+ "dollars");
-//        System.out.println("The mileage being :" + benz.getMileage());
-
-
-
+        System.out.println(Animal.legs);
 
     }
 }
