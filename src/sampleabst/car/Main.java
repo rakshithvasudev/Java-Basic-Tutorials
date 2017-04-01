@@ -6,8 +6,8 @@ package sampleabst.car;
 public class Main {
     public static void main(String[] args) {
 
-        BMW xbmw = new BMW();
-        Limo medLimo = new Limo();
+        Car xbmw = new BMW();
+        Car medLimo = new Limo();
 
         xbmw.setDoors();
         medLimo.setDoors();
