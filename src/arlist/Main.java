@@ -1,6 +1,7 @@
 package arlist;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
@@ -12,36 +13,22 @@ public class Main {
 
 
         List<Integer> integerList = new ArrayList<>();
-        Integer[] arrayVal = new Integer[5];
+        int[] intArrayValues;
         integerList.add(5);
         integerList.add(35);
         integerList.add(75);
         integerList.add(105);
 
-//        for (int currentInt:integerList) {
-//            System.out.println("first: "+currentInt);
-//        }
-//
-//        for (int i=0;i<integerList.size();i++) {
-//            System.out.println(integerList.get(i));
-//        }
+        intArrayValues=convertIntegertoint(integerList);
+        System.out.println(Arrays.toString(intArrayValues));
+    }
 
-
-        // Part 2
-
-        //collections
-
-//        Iterator iterator = integerList.iterator();
-//        while(iterator.hasNext()){
-//            System.out.println("Next element is: "+ iterator.next());
-//        }
-//
-//        System.out.println(integerList.indexOf(75));
-//        System.out.println(integerList.contains(105));
-//        System.out.println(integerList.contains(20));
-
-
-
-
+    public static int[] convertIntegertoint(List<Integer> integerList) {
+        int[] result = new int[integerList.size()];
+        Iterator iterator = integerList.iterator();
+        for (int i=0;i<result.length;i++){
+            result[i]=(int)iterator.next();
+        }
+        return result;
     }
 }
