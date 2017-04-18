@@ -1,34 +1,42 @@
 package arlist;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 /**
  * Created by Rakshith on 4/13/2017.
  */
 public class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
+
+            List<Integer> integerList = new ArrayList<>();
+            integerList.add(5);
+            integerList.add(35);
+            integerList.add(75);
+            integerList.add(105);
+
+//            for (int currentInt:integerList) {
+//                System.out.println("first: "+currentInt);
+//            }
+//
+//            for (int i=0;i<integerList.size();i++) {
+//                System.out.println(integerList.get(i));
+//            }
 
 
-        List<Integer> integerList = new ArrayList<>();
-        int[] intArrayValues;
-        integerList.add(5);
-        integerList.add(35);
-        integerList.add(75);
-        integerList.add(105);
 
-        intArrayValues=convertIntegertoint(integerList);
-        System.out.println(Arrays.toString(intArrayValues));
-    }
+            int index = integerList.indexOf(75);
+            integerList.remove(index);
 
-    public static int[] convertIntegertoint(List<Integer> integerList) {
-        int[] result = new int[integerList.size()];
-        Iterator iterator = integerList.iterator();
-        for (int i=0;i<result.length;i++){
-            result[i]=(int)iterator.next();
+            int index1 = integerList.indexOf(35);
+            integerList.remove(index1);
+
+
+
+            System.out.println("After removing:"+ integerList);
+
+
+
         }
-        return result;
-    }
 }
+
