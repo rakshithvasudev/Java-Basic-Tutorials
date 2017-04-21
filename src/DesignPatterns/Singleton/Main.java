@@ -13,6 +13,15 @@ public class Main {
         System.out.println(steering1);
         System.out.println(steering2);
         System.out.println(steering3);
+
+
+
+
+
+
     }
+
+
+
 
 }
