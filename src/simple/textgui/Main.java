@@ -1,8 +1,5 @@
 package simple.textgui;
 
-
-// follow up  for https://www.youtube.com/watch?v=e0X00EoFQbE
-
 import java.util.Scanner;
 
 public class Main {
