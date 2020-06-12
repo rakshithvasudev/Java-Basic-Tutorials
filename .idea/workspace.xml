@@ -1,10 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c082712c-b878-48f8-8563-40ff10a3b8a5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Class/simple/textgui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Class/simple/textgui/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/simple/textgui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/simple/textgui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Class/arlist/ALToA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Class/arlist/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Class/arlist/SortComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Class/simple/textgui/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarExtensions/BasicCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarExtensions/CarExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarExtensions/CushionSeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarExtensions/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarExtensions/MusicSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarExtensions/RearCamera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarService/BasicCarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarService/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarService/EngineFix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarService/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarService/OilChange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pattern/CarService/TireRotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Factory/Bike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Factory/BikeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Factory/BikeShowRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Factory/DirtBike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Factory/SkyFlyingBike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Factory/SportsBike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Factory/WaterDrowingBike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Steering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/ChineseStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Facebook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/IndianStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/RussianStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/SocialNetwork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Vk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Wechat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arlist/ALToA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arlist/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arlist/SortComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/school/management/system/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/school/management/system/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simple/textgui/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +443,8 @@
       <workItem from="1492840264260" duration="46000" />
       <workItem from="1513326415471" duration="1443000" />
       <workItem from="1591981076662" duration="1376000" />
-      <workItem from="1591997794591" duration="243000" />
+      <workItem from="1591997794591" duration="364000" />
+      <workItem from="1591998177847" duration="326000" />
     </task>
     <servers />
   </component>
@@ -419,6 +482,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591984617851">

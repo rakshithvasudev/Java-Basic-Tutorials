@@ -3,13 +3,10 @@ package school.management.system;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Rakshith on 4/3/2017.
- */
 public class Main {
     public static void main(String[] args) {
         Teacher lizzy = new Teacher(1,"Lizzy",500);
-        Teacher mellisa = new Teacher(2,"Mellisa",700);
+        Teacher mellisa = new Teacher(2,"Anirudh",700);
         Teacher vanderhorn = new Teacher(3,"Vanderhorn",600);
 
         List<Teacher> teacherList = new ArrayList<>();
